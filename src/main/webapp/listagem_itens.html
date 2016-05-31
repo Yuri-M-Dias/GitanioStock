@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,12 @@
 
     <nav>
         <div class="nav-wrapper teal darken-2">
-            <a href="#" class="brand-logo center">GitanioStock</a>
+            <a href="index.html" class="brand-logo left">GitanioStock</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active"><a href="listagem_itens.html">Listagem</a></li>
+                <li><a href="movimentacao.html">Movimentação</a></li>
+                <li><a href="novo_item.html">Novo</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -25,9 +30,9 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <script type="text/javascript"> // Enough JS to activate Materialize
-        $(document).ready(function () {
-            $('select').material_select();
-        });
+    $(document).ready(function () {
+        // Put necessary JS here
+    });
     </script>
 </body>
 </html>
