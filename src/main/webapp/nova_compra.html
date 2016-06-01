@@ -25,7 +25,7 @@
     </nav>
 
     <div class="row">
-        <h3 class="col s3 offset-s3">Nova compra</h3>
+        <h3 class="col s6 offset-s3">Nova compra</h3>
     </div>
 
     <div class="row">
@@ -42,14 +42,18 @@
     </div>
 
     <div class="row">
-        <div class="input-field col s4 offset-s3">
+        <div class="input-field col s3 offset-s3">
             <select id="produtosCadastrados" name="produtosCadastrados">
                 <option value="mc_emege">Macarrão Emege</option>
                 <option value="piz_fr_ct">Pizza de Frango com Catupiry</option>
             </select>
             <label>Produtos</label>
         </div>
-        <div class="input-field col s2">
+        <div class="input-field col s1">
+            <input id="quantidade" name="quantidade" class="validate" type="number" min="1"/>
+            <label for="quantidade">Quantidade</label>
+        </div>
+        <div class="input-field col right-align">
             <a href="#"><button class="twaves-effect waves-light btn">
                 Adicionar
             </button></a>
