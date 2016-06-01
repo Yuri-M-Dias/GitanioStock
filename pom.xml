@@ -11,7 +11,7 @@
     <packaging>war</packaging>
 
     <build>
-        <finalName>imc-jsp</finalName>
+        <finalName>Gitanio-Stock</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
