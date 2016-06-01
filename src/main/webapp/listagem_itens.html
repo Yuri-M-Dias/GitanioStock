@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"
-          media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>GitanioStock</title>
@@ -18,21 +16,105 @@
         <div class="nav-wrapper teal darken-2">
             <a href="index.html" class="brand-logo left">GitanioStock</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="novo_item.html">Novo Produto</a></li>								           
                 <li class="active"><a href="listagem_itens.html">Listagem</a></li>
                 <li><a href="movimentacao.html">Movimentação</a></li>
                 <li><a href="novo_item.html">Novo</a></li>
             </ul>
         </div>
     </nav>
+	
+		<br><br>
 
-    <script type="text/javascript"
-            src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ 		<body>
+			<div class="container">
+		  	<table class="centered">
+					<thead>
+						<tr>
+							<th data-field="Codigo">Código</th>
+							<th data-field="Nome">Nome</th>
+							<th data-field="Categoria">Categoria</th>
+							<th data-field="Quantidade">Quantidade</th>
+							<th data-field="Preco">Preço Unitário</th>
+							<th>Opções</th>
+						</tr>
+					</thead>
+		
+					<tbody>
+						<tr>
+							<td>12587</td>
+							<td>Budweiser 343ml</td>
+							<td>Cervejas Importadas</td>
+							<td>17</td>
+							<td>R$2,99</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>							
+						</tr>
+						<tr>
+							<td>12576</td>
+							<td>Corona Extra 355 ml</td>
+							<td>Cervejas Importadas</td>
+							<td>12</td>
+							<td>R$5,49</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>
+						</tr>
+						<tr>
+							<td>11579</td>
+							<td>Antarctica Cristal 355ml</td>
+							<td>Cervejas Nacionais</td>
+							<td>32</td>
+							<td>R$1,99</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>							
+						</tr>
+						<tr>
+							<td>11579</td>
+							<td>Charuto Alonso Menendez Corona Nº 20</td>
+							<td>Tabacaria Nacional</td>
+							<td>20</td>
+							<td>R$23,90</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>							
+						</tr>
+						<tr>
+							<td>11579</td>
+							<td>Charuto Robt Burns Black Watch Tubo</td>
+							<td>Tabacaria Americana</td>
+							<td>5</td>
+							<td>R$11,80</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>							
+						</tr>
+						<tr>
+							<td>11579</td>
+							<td>Carvão Vegetal QUALITÁ Pacote 5kg</td>
+							<td>Utensílios para churrasco</td>
+							<td>10</td>
+							<td>R$32,90</td>
+							<td>
+								<a class="btn-floating btn-tiny waves-effect waves-light red" href="novo_item.html"><i class="material-icons">mode_edit</i></a>
+								<a class="btn-floating btn-tiny waves-effect waves-light red"><i class="material-icons">delete</i></a>								
+							</td>							
+						</tr>	
+					</tbody>
+				</table>
+			</div>
+		</body>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-
     <script type="text/javascript"> // Enough JS to activate Materialize
-    $(document).ready(function () {
-        // Put necessary JS here
-    });
     </script>
 </body>
 </html>
